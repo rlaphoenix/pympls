@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "pympls"
+version = "0.0.1"
+description = "A Python Parser for Blu-ray's MPLS Playlist files."
+license = "MIT"
+authors = ["PHOENiX <rlaphoenix@pm.me>"]
+maintainers = ["PHOENiX <rlaphoenix@pm.me>"]
+readme = "README.md"
+homepage = "https://github.com/rlaphoenix/pympls"
+repository = "https://github.com/rlaphoenix/pympls"
+keywords = ["mpls", "blu-ray", "playlist", "parser", "avc"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video"
+]
+include = ["LICENSE", "README.md"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4.0"
